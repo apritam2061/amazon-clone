@@ -68,3 +68,27 @@ height: 85%;
     padding-left: 3px;
 }
 /* 3 */
+.select-box
+{
+    height: 40px;
+    width: 50px;
+    background-color: #cccccc;  
+    border-radius: 5px;
+}
+.searchbox
+{
+    height: 40px;
+    width: 470px;
+    color: #cccccc;
+    font-size: 15px;
+    padding-left: 4px;
+}
+.searchbox:focus-visible
+{
+color: black;
+}
+.fa-magnifying-glass
+{
+color: aliceblue;
+background-color: red;
+}
