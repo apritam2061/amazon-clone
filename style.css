@@ -23,7 +23,9 @@ height: 85%;
     border: 1px solid white;
     border-radius: 3px;
 }
-/* 1 */
+
+                                                        /* 1-->LOGO PORTION */
+
 .nav-logo
 {
     height: 50px;
@@ -38,7 +40,8 @@ height: 85%;
     background-size: cover;
 
 }
-/* 2 */
+
+                                                        /* 2-->DELIVERY PORTION */
 
 .fa-location-dot
 {
@@ -54,6 +57,7 @@ height: 85%;
 .nav-location
 {
         padding: 9px 9px 0px 9px;
+        margin-right: 6px;
 }
 
 .loaction-icon
@@ -67,28 +71,101 @@ height: 85%;
     font-weight: bold;
     padding-left: 3px;
 }
-/* 3 */
-.select-box
+
+                                                            /* 3-->SEARCH PORTION */
+
+.nav-search
+ {
+    height: 40px;
+    width: 576px;
+    background-color: rgb(184, 11, 95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+ }
+/* ----OR---- */
+ /* .nav-search
+{
+    background-color: rgb(184, 11, 95);
+    height: 40px;
+    padding-right: 10px;
+    border-radius: 5px;
+   
+} */
+
+ .select-box
+ {
+    height: 40px;
+    width: 52px;
+    text-align: center;
+    background-color: #f3f3f3;  
+    border-radius: 5px 0px 0px 5px;
+    border: 0px;
+
+}
+/* ----OR---- */
+/* .select-box
 {
     height: 40px;
     width: 50px;
-    background-color: #cccccc;  
-    border-radius: 5px;
+    text-align: center;
+    background-color: #f3f3f3;  
+    border-radius: 5px 0px 0px 5px;
+    border: 0px;
+    position: relative;
+    bottom: 1px;
+} */
+.select-box:focus
+{
+    outline: 2px solid rgb(255, 192, 203);
+    border: 1px solid rgb(184, 11, 95);
+    
 }
 .searchbox
 {
+   
     height: 40px;
-    width: 470px;
+    width: 100%;
     color: #cccccc;
-    font-size: 15px;
-    padding-left: 4px;
+    font-size: 1rem;
+    border-radius: 0px;
+    border: 0px;
+    padding-left: 5px;
+    
 }
+/* ----OR---- */
+/* .searchbox
+{   height: 40px;
+    width: 480px;
+    color: #cccccc;
+    font-size: 1rem;
+    padding-left: 4px;
+    position: relative;
+    right: 4.5px;
+    border-radius: 0px;
+    box-shadow: none;
+    border: 0px;
+} */
+
 .searchbox:focus-visible
 {
 color: black;
+outline: none;
+border: none;
+}
+.custom-size
+{
+    font-size: 1.5rem;
+    
 }
 .fa-magnifying-glass
 {
 color: aliceblue;
-background-color: red;
-}
+padding-left: 10px;
+padding-right: 10px;
+} 
+
+                                                            /* 4-->COUNTRY PORTION */
+
+
