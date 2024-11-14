@@ -1,64 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>amazon.com</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-   <header>
-    <div class="navbar">
-      <!-- 1-:LOGO-->
-      <div class="nav-logo border">
-        <div class="logo"></div>
-      </div>
-      <!-- 2-:DELIVERY -->
-      <div class="nav-location border">
-        <p class="deliver-to">Deliver to</p>
-        <div class="loaction-icon">
-          <i class="fa-solid fa-location-dot"></i>
-          <p class="country">Nepal</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>amazon.com</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <!-- 1-:LOGO-->
+        <div class="nav-logo border">
+          <div class="logo"></div>
+        </div>
+        <!-- 2-:DELIVERY -->
+        <div class="nav-location border">
+          <p class="deliver-to">Deliver to</p>
+          <div class="loaction-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="country">Nepal</p>
+          </div>
+        </div>
+        <!-- 3-:SEARCH BAR -->
+        <div class="nav-search">
+          <select class="select-box">
+            <option>All</option>
+            <option>Arts & Crafts</option>
+            <option>Automotive</option>
+            <option>Baby</option>
+            <option>Beauty & Personal Care</option>
+            <option>Books</option>
+            <option>Boys' Fashion</option>
+            <option>Computers</option>
+            <option>Deals</option>
+            <option>Digital Music</option>
+            <option>Electronics</option>
+            <option>Girls' Fashion</option>
+            <option>Health & Household</option>
+            <option>Home & Kitchen</option>
+            <option>Industrial & Scientific</option>
+            <option>Kindle Store</option>
+            <option>Luggage</option>
+            <option>Mens' Fashion</option>
+            <option>Movies & Tv</option>
+            <option>Music, CDs & Vinyl</option>
+            <option>Pet Supplies</option>
+            <option>Prime Video</option>
+            <option>Software</option>
+            <option>Sports & Outdoors</option>
+            <option>Tools & Home Improvement</option>
+            <option>Toys & Games</option>
+            <option>Video Games</option>
+            <option>Womens' Fashion</option>
+          </select>
+          <input type="search" placeholder="Search Amazon" class="search-box" />
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </div>
+        <!-- 4-:LANGUAGE -->
+        <div class="nav-language border">
+          <img
+            src="./Flag-United-States-of-America.jpg.webp"
+            alt="language flag"
+            class="lang-image"
+          />
+          <p class="en">EN</p>
+          <i class="fa-solid fa-angle-down modify-lang"></i>
+        </div>
+        <!-- 5-:ACCOUNTS -->
+        <div class="nav-accounts border">
+          <div class="acc-upper">Hello, sign in</div>
+          <div class="acc-lower">
+            <p>Account & Lists</p>
+            <i class="fa-solid fa-angle-down modify-acc"></i>
+          </div>
+        </div>
+        <!-- 6-:ORDERS -->
+        <div class="nav-orders border">
+          <div class="order-upper">Returns</div>
+          <div class="order-lower">
+            <p>& Orders</p>
+          </div>
+        </div>
+        <!-- 7-:CART -->
+        <div class="nav-cart border">
+          <i class="fas fa-shopping-cart modify-cart"></i>
+          <p class="cart">Cart</p>
         </div>
       </div>
-      <!-- 3-:SEARCH BAR -->
-      <div class="nav-search">
-        <select class="select-box">
-          <option>All</option>
-          <option>Arts & Crafts</option>
-          <option>Automotive</option>
-          <option>Baby</option>
-          <option>Beauty & Personal Care</option>
-          <option>Books</option>
-          <option>Boys' Fashion</option>
-          <option>Computers</option>
-          <option>Deals</option>
-          <option>Digital Music</option>
-          <option>Electronics</option>
-          <option>Girls' Fashion</option>
-          <option>Health & Household</option>
-          <option>Home & Kitchen</option>
-          <option>Industrial & Scientific</option>
-          <option>Kindle Store</option>
-          <option>Luggage</option>
-          <option>Mens' Fashion</option>
-          <option>Movies & Tv</option>
-          <option>Music, CDs & Vinyl</option>
-          <option>Pet Supplies</option>
-          <option>Prime Video</option>
-          <option>Software</option>
-          <option>Sports & Outdoors</option>
-          <option>Tools & Home Improvement</option>
-          <option>Toys & Games</option>
-          <option>Video Games</option>
-          <option>Womens' Fashion</option>
-        </select>
-        <input type="search" placeholder="Search Amazon" class="search-box">
-        <i class="fa-solid fa-magnifying-glass search-icon"></i>
-      </div>
-    
-    </div>
-   </header>
-</body>
+    </header>
+  </body>
 </html>
