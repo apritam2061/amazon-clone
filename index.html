@@ -1,113 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>amazon.com</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <!-- **** NAV-BAR **** -->
-      <div class="navbar">
-        <!-- 1-:logo-->
-        <div class="nav-logo border">
-          <div class="logo"></div>
-        </div>
-        <!-- 2-:delivery -->
-        <div class="nav-location border">
-          <p class="deliver-to">Deliver to</p>
-          <div class="loaction-icon">
-            <i class="fa-solid fa-location-dot"></i>
-            <p class="country">Nepal</p>
-          </div>
-        </div>
-        <!-- 3-:search bar -->
-        <div class="nav-search">
-          <select class="select-box">
-            <option>All</option>
-            <option>Arts & Crafts</option>
-            <option>Automotive</option>
-            <option>Baby</option>
-            <option>Beauty & Personal Care</option>
-            <option>Books</option>
-            <option>Boys' Fashion</option>
-            <option>Computers</option>
-            <option>Deals</option>
-            <option>Digital Music</option>
-            <option>Electronics</option>
-            <option>Girls' Fashion</option>
-            <option>Health & Household</option>
-            <option>Home & Kitchen</option>
-            <option>Industrial & Scientific</option>
-            <option>Kindle Store</option>
-            <option>Luggage</option>
-            <option>Mens' Fashion</option>
-            <option>Movies & Tv</option>
-            <option>Music, CDs & Vinyl</option>
-            <option>Pet Supplies</option>
-            <option>Prime Video</option>
-            <option>Software</option>
-            <option>Sports & Outdoors</option>
-            <option>Tools & Home Improvement</option>
-            <option>Toys & Games</option>
-            <option>Video Games</option>
-            <option>Womens' Fashion</option>
-          </select>
-          <input type="search" placeholder="Search Amazon" class="search-box" />
-          <i class="fa-solid fa-magnifying-glass search-icon"></i>
-        </div>
-        <!-- 4-:language -->
-        <div class="nav-language border">
-          <img
-            src="./Flag-United-States-of-America.jpg.webp"
-            alt="language flag"
-            class="lang-image"
-          />
-          <p class="en">EN</p>
-          <i class="fa-solid fa-angle-down modify-lang"></i>
-        </div>
-        <!-- 5-:accounts -->
-        <div class="nav-accounts border">
-          <div class="acc-upper">Hello, sign in</div>
-          <div class="acc-lower">
-            <p>Account & Lists</p>
-            <i class="fa-solid fa-angle-down modify-acc"></i>
-          </div>
-        </div>
-        <!-- 6-:orders -->
-        <div class="nav-orders border">
-          <div class="order-upper">Returns</div>
-          <div class="order-lower">
-            <p>& Orders</p>
-          </div>
-        </div>
-        <!-- 7-:cart -->
-        <div class="nav-cart border">
-          <i class="fas fa-shopping-cart modify-cart"></i>
-          <p class="cart">Cart</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>amazon.com</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <!-- **** NAV-BAR **** -->
+    <div class="navbar">
+      <!-- 1-:logo-->
+      <div class="nav-logo border">
+        <div class="logo"></div>
+      </div>
+      <!-- 2-:delivery -->
+      <div class="nav-location border">
+        <p class="deliver-to">Deliver to</p>
+        <div class="loaction-icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="country">Nepal</p>
         </div>
       </div>
-      <!-- **** PANAL **** -->
-      <div class="panal">
-        <div class="menu-box border-panal">
-          <i class="fa-solid fa-bars customize-menu"></i>
-          <a href="#" class="awl">All</a>
-        </div>
-        <a href="#" class="anchor-panal border-panal">Today's Deals</a>
-        <a href="#" class="anchor-panal border-panal">Customer Service</a>
-        <a href="#" class="anchor-panal border-panal">Registry</a>
-        <a href="#" class="anchor-panal border-panal">Gift Cards</a>
-        <a href="#" class="anchor-panal border-panal">Sell</a>
+      <!-- 3-:search bar -->
+      <div class="nav-search">
+        <select class="select-box">
+          <option>All</option>
+          <option>Arts & Crafts</option>
+          <option>Automotive</option>
+          <option>Baby</option>
+          <option>Beauty & Personal Care</option>
+          <option>Books</option>
+          <option>Boys' Fashion</option>
+          <option>Computers</option>
+          <option>Deals</option>
+          <option>Digital Music</option>
+          <option>Electronics</option>
+          <option>Girls' Fashion</option>
+          <option>Health & Household</option>
+          <option>Home & Kitchen</option>
+          <option>Industrial & Scientific</option>
+          <option>Kindle Store</option>
+          <option>Luggage</option>
+          <option>Mens' Fashion</option>
+          <option>Movies & Tv</option>
+          <option>Music, CDs & Vinyl</option>
+          <option>Pet Supplies</option>
+          <option>Prime Video</option>
+          <option>Software</option>
+          <option>Sports & Outdoors</option>
+          <option>Tools & Home Improvement</option>
+          <option>Toys & Games</option>
+          <option>Video Games</option>
+          <option>Womens' Fashion</option>
+        </select>
+        <input type="search" placeholder="Search Amazon" class="search-box" />
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
       </div>
-    </header>
-    
-  </body>
+      <!-- 4-:language -->
+      <div class="nav-language border">
+        <img src="./Flag-United-States-of-America.jpg.webp" alt="language flag" class="lang-image" />
+        <p class="en">EN</p>
+        <i class="fa-solid fa-angle-down modify-lang"></i>
+      </div>
+      <!-- 5-:accounts -->
+      <div class="nav-accounts border">
+        <div class="acc-upper">Hello, sign in</div>
+        <div class="acc-lower">
+          <p>Account & Lists</p>
+          <i class="fa-solid fa-angle-down modify-acc"></i>
+        </div>
+      </div>
+      <!-- 6-:orders -->
+      <div class="nav-orders border">
+        <div class="order-upper">Returns</div>
+        <div class="order-lower">
+          <p>& Orders</p>
+        </div>
+      </div>
+      <!-- 7-:cart -->
+      <div class="nav-cart border">
+        <i class="fas fa-shopping-cart modify-cart"></i>
+        <p class="cart">Cart</p>
+      </div>
+    </div>
+    <!-- **** PANAL **** -->
+    <div class="panal">
+      <div class="menu-box border-panal">
+        <i class="fa-solid fa-bars customize-menu"></i>
+        <a href="#" class="awl">All</a>
+      </div>
+      <a href="#" class="anchor-panal border-panal">Today's Deals</a>
+      <a href="#" class="anchor-panal border-panal">Customer Service</a>
+      <a href="#" class="anchor-panal border-panal">Registry</a>
+      <a href="#" class="anchor-panal border-panal">Gift Cards</a>
+      <a href="#" class="anchor-panal border-panal">Sell</a>
+    </div>
+  </header>
+  <!-- **** HERO-SECTION **** -->
+  <div class="hero-section"></div>
+  <!-- **** PRODUCTS **** -->
+  <div class="products">
+    <!-- i-:Row1 -->
+    <div class="row1 row">
+      <!-- 1-:box1 -->
+      <div class="prod1 prod-all">
+        <div class="prodA-inner">
+          <p class="prodA-topic">Small gifts under $20</p>
+          <div class="prod-img-out">
+            <div class="prod1-img-in"></div>
+          </div>
+          <a href="#" class="shop-now">Shop now</a>
+        </div>
+      </div>
+      <!-- 2-:box2 -->
+      <div class="prod2 prod-all">
+        <div class="prodA-inner">
+          <p class="prodA-topic">Deals in PCs</p>
+          <div class="prod-img-out">
+            <div class="prod2-img-in"></div>
+          </div>
+          <a href="#" class="shop-now">Shop now</a>
+        </div>
+      </div>
+      <!-- 3-:box3 -->
+      <div class="prod3 prod-all">
+        <div class="prodA-inner">
+          <p class="prodA-topic">Explore more in Sports</p>
+          <div class="prod3_4-img-out">
+            <div class="prod3-img1 prod-img1234">
+              <p>Cycling</p>
+            </div>
+            <div class="prod3-img2 prod-img1234">
+              <p>Running</p>
+            </div>
+            <div class="prod3-img3 prod-img1234">
+              <p>Exercise & Fitness</p>
+            </div>
+            <div class="prod3-img4 prod-img1234">
+              <p>Golf</p>
+            </div>
+          </div>
+          <a href="#" class="shop-now">Explore more</a>
+        </div>
+      </div>
+
+      <!-- 4-:box4 -->
+      <div class="prod4 prod-all">
+        <div class="prodA-inner">
+          <p class="prodA-topic">Explore more in Sports</p>
+          <div class="prod3_4-img-out">
+            <div class="prod4-img1 prod-img1234">
+              <p>Headsets</p>
+            </div>
+            <div class="prod4-img2 prod-img1234">
+              <p>Keyboards</p>
+            </div>
+            <div class="prod4-img3 prod-img1234">
+              <p>Computer mice</p>
+            </div>
+            <div class="prod4-img4 prod-img1234">
+              <p>Chairs</p>
+            </div>
+          </div>
+          <a href="#" class="shop-now">See more</a>
+        </div>
+      </div>
+    </div>
+    <!-- ii-:Row2 -->
+    <div class="row2 row">
+      <!-- 5-:box5 -->
+      <div class="prod1 prod-all">
+        <div class="prodA-inner">
+          <p class="prodA-topic">Get your game on</p>
+          <div class="prod-img-out">
+            <div class="prod5-img-in"></div>
+          </div>
+          <a href="#" class="shop-now">Shop gaming</a>
+        </div>
+      </div>
+      <!-- 6-:box6 -->
+      <div class="prod2 prod-all">
+        <div class="prodA-inner">
+          <p class="prodA-topic">Toys under $25</p>
+          <div class="prod-img-out">
+            <div class="prod6-img-in"></div>
+          </div>
+          <a href="#" class="shop-now">Shop now</a>
+        </div>
+      </div>
+      <!-- 7-:box7 -->
+      <div class="prod3 prod-all">
+        <div class="prodA-inner">
+          <p class="prodA-topic">Level up your beauty</p>
+          <div class="prod3_4-img-out">
+            <div class="prod7-img1 prod-img1234">
+              <p>Makeup</p>
+            </div>
+            <div class="prod7-img2 prod-img1234">
+              <p>Brushes</p>
+            </div>
+            <div class="prod7-img3 prod-img1234">
+              <p>Sponges</p>
+            </div>
+            <div class="prod7-img4 prod-img1234">
+              <p>Mirrors</p>
+            </div>
+          </div>
+          <a href="#" class="shop-now">Explore more</a>
+        </div>
+      </div>
+
+      <!-- 8-:box8 -->
+      <div class="prod4 prod-all">
+        <div class="prodA-inner">
+          <p class="prodA-topic">Vacation Gatway</p>
+          <div class="prod3_4-img-out">
+            <div class="prod8-img1 prod-img1234">
+              <p>Handbags</p>
+            </div>
+            <div class="prod8-img2 prod-img1234">
+              <p>Swimwear</p>
+            </div>
+            <div class="prod8-img3 prod-img1234">
+              <p>Skincare</p>
+            </div>
+            <div class="prod8-img4 prod-img1234">
+              <p>Sandals</p>
+            </div>
+          </div>
+          <a href="#" class="shop-now">See more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
