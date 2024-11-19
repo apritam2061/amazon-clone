@@ -736,8 +736,10 @@
     text-decoration: underline;
 }
 
-/* Back To Top */
-.back-to-top {
+
+/* FOOTER */
+/* 1-> footer1*/
+.footer1{
     color: white;
     font-size: 13px;
     height: 49px;
@@ -745,9 +747,31 @@
     border: 0px;
     background-color: #364759;
 }
-
-.back-to-top:hover {
+.footer1:hover {
     background-color: #485768;
 
 }
-/* FOOTER */
+/* 2->footer2 */
+.footer2
+{
+    color: white;
+    font-size: 14px;
+    height: 375px;
+    width: 100%;
+    background-color: #222F3E;
+    border-bottom: 1px solid #3A4553;
+}
+.footer3
+{
+    color: #CCCCCC;
+    height: 105px;
+    background-color: #222F3E;
+}
+.footer4
+{
+    height: 455px;
+    width: 100%;
+    background-color: #131A22;
+
+
+}
