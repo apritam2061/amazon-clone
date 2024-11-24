@@ -739,7 +739,7 @@
 
 /* FOOTER */
 /* 1-> footer1*/
-.footer1{
+.footer1 {
     color: white;
     font-size: 13px;
     height: 49px;
@@ -747,31 +747,177 @@
     border: 0px;
     background-color: #364759;
 }
+
 .footer1:hover {
     background-color: #485768;
 
 }
+
 /* 2->footer2 */
-.footer2
-{
+.footer2 {
     color: white;
     font-size: 14px;
     height: 375px;
     width: 100%;
     background-color: #222F3E;
     border-bottom: 1px solid #3A4553;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.footer3
-{
+
+.f2-properties {
+    display: flex;
+    flex-direction: column;
+}
+
+.f2-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 6px 0px 14px;
+
+}
+
+.footer2-anchor {
+    color: #dddddd;
+    text-decoration: none;
+    word-spacing: 2px;
+    margin-bottom: 9px;
+}
+
+.footer2-anchor:hover {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.mmwu {
+    width: 164.32px;
+}
+
+.luhy {
+    width: 137.41px;
+    position: relative;
+    top: 10px;
+}
+
+.gtku {
+    width: 120px;
+    position: relative;
+    bottom: 32px;
+}
+
+.app {
+    width: 208px;
+    position: relative;
+    bottom: 58px;
+}
+
+/* 3->footer3 */
+.footer3 {
     color: #CCCCCC;
     height: 105px;
     background-color: #222F3E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.footer4
+
+.foter-amaz-img-outer {
+    height: 68px;
+    width: 90.39px;
+    position: relative;
+    left: 110px;
+}
+
+.amaz-img-inner {
+    height: 100%;
+    width: 100%;
+    background-image: url(./amazon_logo.png);
+    background-size: contain;
+    background-position: center;
+    padding: 0px 10px;
+}
+
+.f3-cmn-class {
+
+    font-size: 13px;
+    border: 1px solid #8D9095;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding: 6px 8px;
+    margin-right: 8px;
+
+}
+
+.bhasa {
+    height: 33.5px;
+    width: 116.95px;
+}
+
+.angreji {
+    color: #CCCCCC;
+    padding: 0px 7.8px;
+}
+
+.angle-down {
+    position: relative;
+    top: 3px;
+    left: 11px;
+}
+
+.angle-up {
+    position: relative;
+    left: 19.5px;
+    bottom: 3px;
+}
+
+.angle-updown {
+    color: #666666;
+    font-size: 10px;
+
+}
+
+
+.f3-other {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 100px;
+
+}
+
+.currency {
+    width: 153.59px;
+    height: 33.5px;
+}
+
+.dollor-text {
+    color: #CCCCCC;
+    padding: 0px 7.8px;
+}
+
+.nation
 {
+    height: 33.5px;
+    width: 141.38px;
+}
+
+.nation-text
+{
+    color: #CCCCCC;
+    padding: 0px 5.8px;
+
+}
+.nation-image {
+    height: 12px;
+    width: 18px;
+    margin-right: 4px;
+    border: 1px solid #808080;
+}
+/* 4->footer4 */
+.footer4 {
     height: 455px;
     width: 100%;
     background-color: #131A22;
-
-
 }
